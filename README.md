@@ -34,10 +34,7 @@ En entornos Fintech, la gestión de cobranzas enfrenta tres desafíos clave:
 ## 📊 Dashboard Interactivo
 
 🔗 **Acceder al dashboard (Power BI):**  
-_Aquí puedes pegar el link público de Power BI Service si lo publicas_
-
-📁 **Archivo local:**  
-`/Dashboard/collections-strategy-analytics.pbix`
+`https://github.com/GuilleBerrutti/collections-strategy-analytics/tree/main/collections-strategy-analytics/data`
 
 ---
 
