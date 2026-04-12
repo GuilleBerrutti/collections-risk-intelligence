@@ -1,7 +1,7 @@
 # Collections Strategy Analytics 🚀
 
 <p align="center">
-  <img src="Screenshots/paigo.png" width="800" title="https://github.com/GuilleBerrutti/collections-strategy-analytics/blob/main/collections-strategy-analytics/screenshots/paigo.png">
+  <img src="https://github.com/GuilleBerrutti/collections-strategy-analytics/blob/main/collections-strategy-analytics/screenshots/paigo.png" width="800" title="https://github.com/GuilleBerrutti/collections-strategy-analytics/blob/main/collections-strategy-analytics/screenshots/paigo.png">
 </p>
 
 ## 📌 Resumen Ejecutivo (BLUF)
