@@ -108,20 +108,3 @@ El análisis evidencia que una estrategia de cobranza efectiva no es uniforme, s
 
 4. **Top 10 Deudores Críticos**  
    Ranking automatizado de clientes con mayor exposición de riesgo  
-
----
-
-## 🚀 Valor del Proyecto
-
-Este proyecto demuestra la capacidad de:
-
-- Traducir datos en decisiones de negocio  
-- Diseñar métricas relevantes para operaciones reales  
-- Construir dashboards orientados a acción  
-- Analizar comportamiento de clientes en contextos financieros  
-
----
-
-## 🧪 Nota
-
-Los datos utilizados han sido anonimizados con fines educativos.
