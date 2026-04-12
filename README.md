@@ -1,7 +1,7 @@
 # Collections Strategy Analytics 🚀
 
 <p align="center">
-  <img src="Screenshots/paigo.png" width="800" title="Dashboard Preview">
+  <img src="Screenshots/paigo.png" width="800" title="collections-strategy-analytics/screenshots/paigo.png">
 </p>
 
 ## 📌 Resumen Ejecutivo (BLUF)
