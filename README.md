@@ -1,110 +1,127 @@
-# 📊 Optimización de Estrategias de Cobranza en Fintech
+# 💳 ¿Qué estrategia de cobranza maximiza la recuperación de deuda?
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Optimizacion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/paigo.png" width="800" title="Dashboard Preview">
+  <img src="https://github.com/GuilleBerrutti/Optimizacion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/paigo.png" width="800">
 </p>
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🧠 Contexto
 
-Analizar el desempeño de estrategias de cobranza en una cartera de créditos Fintech para **maximizar la recuperación de deuda y mejorar la eficiencia operativa**.
+En Fintech, la eficiencia en cobranzas impacta directamente en:
 
-Este proyecto transforma datos de gestión en información accionable, permitiendo:
-- Priorizar clientes de alto riesgo  
-- Evaluar la efectividad de las estrategias de contacto  
-- Optimizar la toma de decisiones en tiempo real  
+- Flujo de caja  
+- Rentabilidad  
+- Riesgo financiero  
 
----
-
-## 🧠 Problema de Negocio
-
-En entornos Fintech, la gestión de cobranzas enfrenta tres desafíos clave:
-
-- Alto volumen de clientes con distinto nivel de riesgo  
-- Baja visibilidad sobre qué estrategias funcionan mejor  
-- Ineficiencia en la asignación de recursos de contacto  
-
-👉 Este análisis responde a la pregunta:
-
-**¿Qué estrategias de cobranza generan mayor recuperación y sobre qué segmentos de clientes deberían aplicarse?**
+Sin una estrategia optimizada:
+- Se pierden oportunidades de recuperación  
+- Se desperdician recursos operativos  
+- Se aplican acciones incorrectas sobre clientes  
 
 ---
 
-## 📊 Dashboard Interactivo
+## ❗ Problema
 
-* 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/collections-strategy-analytics/tree/main/collections-strategy-analytics/data)*
+No todas las estrategias de cobranza funcionan igual para todos los clientes.
 
+👉 Pregunta clave:
 
----
-
-## 📊 Metodología
-
-Se desarrolló un dashboard interactivo en Power BI a partir de datos anonimizados de cobranzas, aplicando:
-
-- Limpieza y transformación de datos (ETL desde CSV/Excel)  
-- Modelado de relaciones entre clientes, deuda y gestiones  
-- Creación de métricas clave mediante DAX  
-- Análisis segmentado por comportamiento y capacidad de pago  
+**¿Qué combinación de segmento + canal maximiza la recuperación de deuda?**
 
 ---
 
-## 💡 Insights Clave
+## 📊 Solución
 
-- **Priorización de riesgo:**  
-  Identificación de los deudores con mayor impacto económico mediante un ranking dinámico (Top 10), facilitando acciones inmediatas.
+Desarrollo de un dashboard en Power BI para:
 
-- **Segmentación por capacidad de pago:**  
-  Los clientes con distintos niveles de ingreso presentan comportamientos de pago diferenciados, lo que permite adaptar estrategias de negociación.
-
-- **Eficacia de gestión:**  
-  La tasa de cumplimiento de promesas de pago emerge como un indicador crítico para evaluar la calidad de las interacciones.
-
-- **Optimización de contacto:**  
-  Determinados canales muestran mayor efectividad según el perfil del cliente, lo que permite optimizar recursos operativos.
+- Priorizar deudores según impacto económico  
+- Identificar canales más efectivos por segmento  
+- Evaluar la calidad de gestión mediante promesas de pago  
+- Optimizar la asignación de recursos  
 
 ---
 
-## 📈 Conclusión
+## 💡 Insights accionables
 
-El análisis evidencia que una estrategia de cobranza efectiva no es uniforme, sino que debe adaptarse al perfil del cliente.
+### 1. El riesgo no está distribuido uniformemente
+Un pequeño grupo de clientes concentra la mayor exposición de deuda.
 
-👉 Recomendaciones:
-- Priorizar acciones sobre clientes de alto riesgo económico  
-- Ajustar estrategias según capacidad de pago  
-- Medir y optimizar continuamente la eficacia de las gestiones  
-
----
-
-## 🛠️ Stack Tecnológico
-
-- **Power BI Desktop** → Visualización y modelado de datos  
-- **DAX (Data Analysis Expressions)**  
-  - Rankings dinámicos con lógica de desempate  
-  - Métricas de cumplimiento de pago  
-  - Segmentación de clientes  
-- **ETL & Data Cleaning** → Procesamiento de datos desde CSV y Excel  
+👉 Acción:
+- Priorizar gestión intensiva sobre Top deudores  
 
 ---
 
-## 📁 Estructura del Repositorio
+### 2. No todos los clientes responden igual
+El comportamiento de pago varía según capacidad económica.
 
-- `/Dashboard` → Archivo `.pbix` con el reporte interactivo  
-- `/Data` → Dataset anonimizado utilizado en el análisis  
-- `/Screenshots` → Visualizaciones del dashboard  
+👉 Acción:
+- Ajustar estrategias de contacto y negociación por segmento  
 
 ---
 
-## 📊 Visualizaciones Incluidas
+### 3. La promesa de pago es el KPI clave
+No todas las gestiones generan compromiso real.
 
-1. **Estatus de Gestiones**  
-   Distribución de respuestas de clientes (Promesas, No Contesta, Ilocalizables)
+👉 Acción:
+- Optimizar scripts y seguimiento sobre promesas generadas  
 
-2. **Distribución de Deuda**  
-   Segmentación por rangos de ingresos (Treemap)
+---
 
-3. **Uso de Canales de Contacto**  
-   Análisis de efectividad por canal
+### 4. El canal correcto multiplica resultados
+Algunos canales muestran mayor efectividad según perfil.
 
-4. **Top 10 Deudores Críticos**  
-   Ranking automatizado de clientes con mayor exposición de riesgo  
+👉 Acción:
+- Redistribuir esfuerzos hacia canales más eficientes  
+
+---
+
+## 📈 Impacto en negocio (estimado)
+
+- ↑ Recuperación de deuda mediante priorización inteligente  
+- ↓ Costos operativos al enfocar esfuerzos  
+- ↑ Eficiencia en gestión de cobranzas  
+- ↑ Tasa de cumplimiento de pagos  
+
+---
+
+## 📊 Dashboard
+
+👉 [Explorar datos / repositorio](https://github.com/GuilleBerrutti/collections-strategy-analytics)
+
+📌 Incluye:
+- Ranking dinámico de deudores  
+- Segmentación por ingresos  
+- Análisis de canales  
+- KPIs de gestión  
+
+---
+
+## ⚙️ Cómo se construyó
+
+- ETL desde CSV / Excel  
+- Modelado de datos relacional  
+- Métricas en DAX (ranking, cumplimiento, segmentación)  
+- Visualización enfocada en toma de decisiones  
+
+---
+
+## 🛠️ Stack
+
+- Power BI  
+- DAX  
+- SQL (preparación de datos)  
+
+---
+
+## 🎯 Conclusión
+
+Una estrategia de cobranza efectiva no depende del volumen de gestiones, sino de su **precisión**.
+
+Las organizaciones que segmentan, priorizan y optimizan canales:
+
+→ recuperan más con menos esfuerzo  
+→ reducen costos  
+→ mejoran su salud financiera  
+
+---
