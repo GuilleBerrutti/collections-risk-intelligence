@@ -1,33 +1,31 @@
-# 💳 ¿Qué estrategia de cobranza maximiza la recuperación de deuda?
+# 💳 ¿Dónde se concentra realmente el riesgo financiero en cobranzas?
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Optimizacion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/paigo.png" width="800">
+  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/dashboard.png" width="800">
 </p>
 
 ---
 
 ## 🧠 Contexto
 
-En Fintech, la eficiencia en cobranzas impacta directamente en:
+En cobranzas, no todos los clientes representan el mismo nivel de riesgo.
 
-- Flujo de caja  
-- Rentabilidad  
-- Riesgo financiero  
+Una mala priorización puede generar:
 
-Sin una estrategia optimizada:
-- Se pierden oportunidades de recuperación  
-- Se desperdician recursos operativos  
-- Se aplican acciones incorrectas sobre clientes  
+- Pérdida de recupero  
+- Costos operativos innecesarios  
+- Baja efectividad de contacto  
+- Gestión ineficiente de recursos  
 
 ---
 
 ## ❗ Problema
 
-No todas las estrategias de cobranza funcionan igual para todos los clientes.
+La deuda no está distribuida uniformemente.
 
 👉 Pregunta clave:
 
-**¿Qué combinación de segmento + canal maximiza la recuperación de deuda?**
+**¿Qué clientes y segmentos concentran el mayor riesgo financiero y requieren prioridad operativa?**
 
 ---
 
@@ -35,74 +33,77 @@ No todas las estrategias de cobranza funcionan igual para todos los clientes.
 
 Desarrollo de un dashboard en Power BI para:
 
-- Priorizar deudores según impacto económico  
-- Identificar canales más efectivos por segmento  
-- Evaluar la calidad de gestión mediante promesas de pago  
-- Optimizar la asignación de recursos  
+- Identificar clientes críticos  
+- Analizar concentración de deuda  
+- Detectar segmentos de alto riesgo  
+- Medir efectividad de contactos  
+- Priorizar acciones de cobranza  
 
 ---
 
 ## 💡 Insights accionables
 
-### 1. El riesgo no está distribuido uniformemente
-Un pequeño grupo de clientes concentra la mayor exposición de deuda.
+### 1. La deuda se concentra en pocos clientes
+Un pequeño grupo concentra gran parte de la exposición financiera.
 
 👉 Acción:
 - Priorizar gestión intensiva sobre Top deudores  
 
 ---
 
-### 2. No todos los clientes responden igual
-El comportamiento de pago varía según capacidad económica.
+### 2. Mora y score crediticio están fuertemente relacionados
+Clientes con score bajo presentan mayor mora y riesgo.
 
 👉 Acción:
-- Ajustar estrategias de contacto y negociación por segmento  
+- Escalar tempranamente clientes críticos  
+- Ajustar políticas de refinanciación  
 
 ---
 
-### 3. La promesa de pago es el KPI clave
-No todas las gestiones generan compromiso real.
-
-👉 Acción:
-- Optimizar scripts y seguimiento sobre promesas generadas  
-
----
-
-### 4. El canal correcto multiplica resultados
-Algunos canales muestran mayor efectividad según perfil.
+### 3. No todos los canales generan el mismo resultado
+Algunos medios muestran mayor efectividad en promesas de pago.
 
 👉 Acción:
 - Redistribuir esfuerzos hacia canales más eficientes  
 
 ---
 
+### 4. Los clientes ilocalizables presentan mayor riesgo
+La falta de contacto efectivo suele asociarse a mora elevada.
+
+👉 Acción:
+- Mejorar calidad de datos y estrategias multicanal  
+
+---
+
 ## 📈 Impacto en negocio (estimado)
 
-- ↑ Recuperación de deuda mediante priorización inteligente  
-- ↓ Costos operativos al enfocar esfuerzos  
-- ↑ Eficiencia en gestión de cobranzas  
-- ↑ Tasa de cumplimiento de pagos  
+- ↑ Recuperación de deuda  
+- ↓ Riesgo financiero  
+- ↑ Eficiencia operativa  
+- ↑ Priorización estratégica  
+- ↓ Tiempo desperdiciado en gestiones poco efectivas  
 
 ---
 
 ## 📊 Dashboard
 
-👉 [Explorar datos / repositorio](https://github.com/GuilleBerrutti/collections-strategy-analytics)
-
 📌 Incluye:
-- Ranking dinámico de deudores  
-- Segmentación por ingresos  
-- Análisis de canales  
-- KPIs de gestión  
+- Scatter plot de riesgo financiero  
+- Pareto de concentración de deuda  
+- Heatmap de mora vs score  
+- KPIs operativos y financieros  
+- Segmentación dinámica de clientes  
 
 ---
 
 ## ⚙️ Cómo se construyó
 
-- ETL desde CSV / Excel  
-- Modelado de datos relacional  
-- Métricas en DAX (ranking, cumplimiento, segmentación)  
-- Visualización enfocada en toma de decisiones  
+- ETL desde Excel  
+- Modelado relacional  
+- Métricas DAX  
+- Segmentación de riesgo  
+- Storytelling analítico  
 
 ---
 
@@ -110,18 +111,19 @@ Algunos canales muestran mayor efectividad según perfil.
 
 - Power BI  
 - DAX  
-- SQL (preparación de datos)  
+- Power Query  
 
 ---
 
 ## 🎯 Conclusión
 
-Una estrategia de cobranza efectiva no depende del volumen de gestiones, sino de su **precisión**.
+Una estrategia de cobranzas eficiente no depende de realizar más contactos, sino de:
 
-Las organizaciones que segmentan, priorizan y optimizan canales:
+- priorizar correctamente  
+- segmentar riesgo  
+- identificar clientes críticos  
+- optimizar recursos operativos  
 
-→ recuperan más con menos esfuerzo  
-→ reducen costos  
-→ mejoran su salud financiera  
+Las decisiones basadas en datos permiten recuperar más deuda con menor esfuerzo.
 
 ---
