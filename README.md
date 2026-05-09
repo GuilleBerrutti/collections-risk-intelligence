@@ -1,129 +1,66 @@
-# 💳 ¿Dónde se concentra realmente el riesgo financiero en cobranzas?
+# 💳 Estrategia de Cobranzas: ¿Dónde se concentra realmente el riesgo financiero?
 
 <p align="center">
-  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/dashboard.png" width="800">
+  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/1.png" width="45%" alt="Dashboard Overview">
+  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/2.png" width="45%" alt="Análisis de Riesgo">
 </p>
 
 ---
 
-## 🧠 Contexto
-
-En cobranzas, no todos los clientes representan el mismo nivel de riesgo.
-
-Una mala priorización puede generar:
-
-- Pérdida de recupero  
-- Costos operativos innecesarios  
-- Baja efectividad de contacto  
-- Gestión ineficiente de recursos  
+## 🚀 Impacto del Proyecto (BLUF)
+Este dashboard transforma la gestión de cobranzas de un modelo reactivo a uno **proactivo y basado en riesgos**. Al identificar que un pequeño grupo de deudores concentra la mayor parte de la exposición financiera, la solución permite **priorizar esfuerzos operativos**, logrando una optimización en la recuperación de capital y una reducción drástica en los costos de contacto ineficientes.
 
 ---
 
-## ❗ Problema
-
-La deuda no está distribuida uniformemente.
-
-👉 Pregunta clave:
-
-**¿Qué clientes y segmentos concentran el mayor riesgo financiero y requieren prioridad operativa?**
+## 🧠 Contexto del Negocio
+En el sector Fintech y financiero, el éxito no depende de contactar al 100% de la cartera, sino de saber **a quién contactar primero**. Una mala priorización genera:
+* **Fuga de capital** por falta de acción en deudores críticos.
+* **Costos operativos inflados** por gestiones en cuentas de bajo impacto.
+* **Deterioro de la cartera** por detección tardía de patrones de abandono.
 
 ---
 
-## 📊 Solución
+## 📊 Solución: Dashboard de Gestión de Deuda
+Desarrollé una solución integral en **Power BI** que segmenta la cartera mediante análisis multidimensional:
 
-Desarrollo de un dashboard en Power BI para:
+### 1. Análisis de Dispersión (Riesgo vs. Ingresos)
+Utilizando un **Scatter Plot**, se identificó la correlación entre el nivel de ingresos mensuales y el capital pendiente. 
+* **Insight:** Los clientes con altos ingresos pero score bajo representan la mayor oportunidad de recupero mediante negociación directa antes de pasar a instancias legales.
 
-- Identificar clientes críticos  
-- Analizar concentración de deuda  
-- Detectar segmentos de alto riesgo  
-- Medir efectividad de contactos  
-- Priorizar acciones de cobranza  
+### 2. Perfilado 360° (Gráfico de Radar)
+Visualización de las 5 dimensiones clave del deudor: Días de mora, Monto, Ingresos, Score y Frecuencia de pago.
+* **Impacto:** Permite a los supervisores de cobranza asignar cada caso al agente con el perfil adecuado (Negociación vs. Recuperación Legal).
 
----
-
-## 💡 Insights accionables
-
-### 1. La deuda se concentra en pocos clientes
-Un pequeño grupo concentra gran parte de la exposición financiera.
-
-👉 Acción:
-- Priorizar gestión intensiva sobre Top deudores  
+### 3. Embudo de Eficiencia Operativa (Funnel)
+Medición del proceso: **Mora → Contacto Efectivo → Promesa de Pago → Pago Realizado**.
+* **Insight:** El análisis reveló los puntos de fuga donde las promesas de pago no se concretan, permitiendo ajustar los scripts de cobranza.
 
 ---
 
-### 2. Mora y score crediticio están fuertemente relacionados
-Clientes con score bajo presentan mayor mora y riesgo.
-
-👉 Acción:
-- Escalar tempranamente clientes críticos  
-- Ajustar políticas de refinanciación  
+## 💡 Insights Accionables
+* **Concentración de Riesgo:** El 20% de los deudores concentra gran parte de la deuda total; estos requieren una estrategia de "High Touch".
+* **Correlación de Score:** Clientes con un score crediticio bajo presentan una aceleración en la mora después de los 30 días, sugiriendo la necesidad de acciones tempranas.
+* **Calidad de Contacto:** Los clientes ilocalizables presentan los mayores índices de mora, destacando la importancia de mejorar la base de datos y estrategias multicanal.
 
 ---
 
-### 3. No todos los canales generan el mismo resultado
-Algunos medios muestran mayor efectividad en promesas de pago.
-
-👉 Acción:
-- Redistribuir esfuerzos hacia canales más eficientes  
-
----
-
-### 4. Los clientes ilocalizables presentan mayor riesgo
-La falta de contacto efectivo suele asociarse a mora elevada.
-
-👉 Acción:
-- Mejorar calidad de datos y estrategias multicanal  
+## ⚙️ Arquitectura Técnica
+* **ETL (Power Query):** Limpieza, normalización y transformación de datos transaccionales.
+* **Modelado de Datos:** Diseño de esquema en estrella para optimizar el rendimiento de las consultas.
+* **DAX Avanzado:** Creación de medidas para cálculo de *Aging*, *Roll Rates* y *Ratios de Curación*.
+* **UI/UX:** Diseño en **Dark Mode** de alto contraste para facilitar la visualización de KPIs críticos en entornos de monitoreo continuo.
 
 ---
 
-## 📈 Impacto en negocio (estimado)
-
-- ↑ Recuperación de deuda  
-- ↓ Riesgo financiero  
-- ↑ Eficiencia operativa  
-- ↑ Priorización estratégica  
-- ↓ Tiempo desperdiciado en gestiones poco efectivas  
-
----
-
-## 📊 Dashboard
-
-📌 Incluye:
-- Scatter plot de riesgo financiero  
-- Pareto de concentración de deuda  
-- Heatmap de mora vs score  
-- KPIs operativos y financieros  
-- Segmentación dinámica de clientes  
-
----
-
-## ⚙️ Cómo se construyó
-
-- ETL desde Excel  
-- Modelado relacional  
-- Métricas DAX  
-- Segmentación de riesgo  
-- Storytelling analítico  
-
----
-
-## 🛠️ Stack
-
-- Power BI  
-- DAX  
-- Power Query  
+## 🛠️ Stack Tecnológico
+* **Power BI** (Visualización y Storytelling)
+* **DAX** (Lógica de negocio y métricas)
+* **Power Query** (Procesamiento de datos)
 
 ---
 
 ## 🎯 Conclusión
-
-Una estrategia de cobranzas eficiente no depende de realizar más contactos, sino de:
-
-- priorizar correctamente  
-- segmentar riesgo  
-- identificar clientes críticos  
-- optimizar recursos operativos  
-
-Las decisiones basadas en datos permiten recuperar más deuda con menor esfuerzo.
+La recuperación eficiente no es una cuestión de volumen, sino de **precisión**. Este proyecto demuestra cómo el análisis de datos permite segmentar el riesgo financiero para recuperar más deuda con menor esfuerzo operativo.
 
 ---
+**¿Quieres saber más sobre este proyecto?** [Conecta conmigo en LinkedIn](TU-LINK-A-LINKEDIN)
