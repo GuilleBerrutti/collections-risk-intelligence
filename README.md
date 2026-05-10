@@ -1,108 +1,196 @@
-# 💳 Estrategia de Cobranzas Inteligente: Identificando el Riesgo Financiero Real
+# 💳 Estrategia de Cobranzas Inteligente: Identificando el Riesgo Financiero
 
 <p align="center">
   <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/dashboard_completo.png" width="100%" alt="Executive Dashboard Overview">
   <br>
-  <em>Vista general del Dashboard Estratégico de Recuperación</em>
+  <em>Dashboard estratégico de recuperación y segmentación de riesgo</em>
 </p>
 
 ---
 
 ## 📌 Resumen Ejecutivo
 
-Este proyecto transforma la gestión de cobranzas mediante un enfoque basado en datos, permitiendo detectar qué clientes concentran el mayor riesgo financiero y qué estrategias generan mejores resultados operativos.
+Este proyecto analiza una cartera de cobranzas utilizando Power BI para identificar clientes críticos, detectar concentración de deuda y optimizar estrategias de recuperación.
+
+El objetivo principal es transformar datos operativos en información accionable para mejorar:
+- priorización de cuentas
+- eficiencia operativa
+- recuperación de capital
+- gestión del riesgo financiero
 
 ---
 
-## 📊 Solución Desarrollada (Deep Dive)
-
-Haz clic en cada sección para desplegar el análisis técnico y estratégico de cada visualización.
+# 📊 Dashboard Analítico
 
 <details>
-<summary>📈 1. Matriz de Decisión: Capacidad vs. Voluntad de Pago (Scatter Plot)</summary>
+<summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
 
-### Análisis de Segmentación Crítica
-Este gráfico es fundamental para entender la relación entre la capacidad financiera y el nivel de compromiso del deudor.
+### Objetivo
+Analizar la relación entre:
+- ingresos mensuales
+- capital pendiente
+- días de mora
+- score crediticio
 
-- **Eje X:** Ingresos Mensuales (Capacidad financiera).
-- **Eje Y:** Capital Pendiente (Exposición del riesgo).
-- **Tamaño de la burbuja:** Días de Mora.
-- **Color:** Score Crediticio (Nivel de confianza).
+### Configuración
+- **Eje X:** ingresos_mensuales
+- **Eje Y:** capital_pendiente
+- **Tamaño:** dias_mora
+- **Color:** nivel_score
 
-> **💡 Recomendación Estratégica:** Si logramos contactar al **15% de los clientes en el Cuadrante Superior Derecho** (altos ingresos y alta deuda), concretaremos una **recuperación del 25% del capital total en mora** en menos de 30 días, optimizando el flujo de caja inmediato.
+### Insight
+Los clientes con alta deuda y score bajo presentan mayor riesgo operativo, especialmente en segmentos de ingresos medios y bajos.
 
-</details>
-
-<details>
-<summary>⚖️ 2. Análisis de Pareto: Concentración de Deuda</summary>
-
-### Ley del 80/20 Aplicada a Cartera
-Ideal para enfocar los esfuerzos donde realmente está el capital en riesgo.
-
-- **Barras:** Monto de Deuda Individual (Capital pendiente).
-- **Línea:** % Acumulado de la Deuda Total.
-
-> **💡 Insight Genuino:** El análisis reveló que el **15% de los clientes concentra el 75% de la deuda total**. Esta identificación permitió reorientar a los gestores *Senior* hacia estas cuentas críticas, optimizando el tiempo operativo en un **40%**.
-
-</details>
-
-<details>
-<summary>🔥 3. Mapa de Calor (Heatmap): Mora vs. Score</summary>
-
-### Zonas de Rescate y Riesgo de Incobrabilidad
-Este mapa permite identificar visualmente dónde se concentran las pérdidas y dónde hay oportunidades de "salvamento" temprano.
-
-- **Eje X:** Tramos de Mora (0-30, 31-60, 61-90, +90 días).
-- **Eje Y:** Rangos de Score Crediticio (Bajo, Medio, Alto).
-- **Intensidad:** Volumen de capital en riesgo.
-
-> **💡 Recomendación Estratégica:** Si aumentamos el esfuerzo de refinanciación en un **10% en el segmento de 'Mora Temprana / Score Medio'**, concretaremos una **reducción del 12%** en el flujo de clientes hacia el tramo de mora crítica (+90 días).
-
-</details>
-
-<details>
-<summary>🌪️ 4. Funnel Operativo: Eficiencia de Conversión</summary>
-
-### Embudo de Gestión y Recuperación
-Muestra la salud del proceso operativo y detecta fugas en la cadena de contacto.
-
-1. **Universo Inicial:** Total Clientes en Mora.
-2. **Alcance:** Clientes Contactados.
-3. **Negociación:** Promesas de Pago.
-4. **Cierre:** Pagos Realizados (Recuperación Final).
-
-> **💡 Valor de Negocio:** Si aumentamos la tasa de contacto efectivo en un **20% mediante canales automatizados**, concretaremos un **aumento del 8% en la recuperación final**, disminuyendo drásticamente el costo operativo por dólar recuperado.
+### Valor de negocio
+Permite priorizar clientes con mayor impacto financiero y detectar oportunidades de recupero temprano.
 
 </details>
 
 ---
 
-## 💡 Insights Accionables Generales
+<details>
+<summary>⚖️ 2. Pareto — Concentración de Deuda</summary>
 
-1. **Priorización de Cuentas Clave:** La gestión intensiva sobre el "Top 15%" de deudores es más rentable que la gestión masiva.
-2. **Acción Preventiva:** Los clientes con Score Alto en mora temprana (0-30) se recuperan con notificaciones automáticas de bajo costo.
-3. **Fuga en Negociación:** La brecha entre "Promesa" y "Pago Real" sugiere la necesidad de reforzar el cierre de acuerdos mediante recordatorios preventivos.
+### Objetivo
+Identificar qué clientes concentran la mayor parte de la deuda total.
 
----
+### Configuración
+- **Barras:** deuda_total
+- **Línea:** porcentaje_acumulado
 
-## ⚙️ Arquitectura Técnica
+### Insight
+Una pequeña parte de los clientes concentra gran parte de la exposición financiera.
 
-- **ETL:** Transformación de datos con Power Query (Limpieza de duplicados y normalización).
-- **Modelado:** Esquema de estrella con tablas de hechos (Pagos/Gestiones) y dimensiones (Clientes).
-- **DAX:** Medidas avanzadas de acumulación porcentual y conteos distintos de IDs.
-- **Visualización:** Storytelling orientado a la toma de decisiones financieras (C-Level).
+### Valor de negocio
+Facilita priorización operativa y asignación eficiente de recursos de cobranza.
 
----
-
-## 🛠️ Stack Tecnológico
-
-- **Power BI** (Dashboarding)
-- **DAX** (Lógica de Negocio)
-- **SQL / Excel** (Fuentes de datos)
-- **Python** (Análisis estadístico previo)
+</details>
 
 ---
 
-## 🎯 Conclusión
+<details>
+<summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
 
-La eficiencia en cobranzas no depende del volumen de contactos, sino de la capacidad para **segmentar riesgo y priorizar capital**. Este proyecto demuestra cómo el análisis de datos transforma un centro de costos en una unidad de recuperación estratégica.
+### Objetivo
+Detectar segmentos críticos cruzando:
+- nivel de mora
+- score crediticio
+
+### Configuración
+- **Filas:** nivel_mora
+- **Columnas:** nivel_score
+- **Valores:** deuda_total
+
+### Insight
+Los clientes con score bajo presentan mayor concentración de mora avanzada.
+
+### Valor de negocio
+Permite identificar segmentos con menor probabilidad de recuperación y actuar preventivamente.
+
+</details>
+
+---
+
+<details>
+<summary>🌪️ 4. Funnel Operativo — Gestión de Cobranza</summary>
+
+### Objetivo
+Analizar la eficiencia del proceso de cobranza.
+
+### Flujo analizado
+1. Clientes en mora
+2. Clientes contactados
+3. Promesas de pago
+4. Gestión efectiva
+
+### Insight
+Existen pérdidas relevantes entre contacto efectivo y concreción de acuerdos.
+
+### Valor de negocio
+Permite optimizar seguimiento y estrategias de negociación.
+
+</details>
+
+---
+
+# 💡 Insights Accionables
+
+### 1. Alta concentración de deuda
+Un grupo reducido de clientes concentra gran parte del riesgo financiero.
+
+👉 Acción:
+- priorizar gestión intensiva sobre cuentas críticas
+
+---
+
+### 2. Relación entre score y mora
+Clientes con score bajo presentan mayor deterioro financiero.
+
+👉 Acción:
+- aplicar estrategias tempranas de recuperación
+
+---
+
+### 3. Diferencias de efectividad entre canales
+Algunos medios generan mejores resultados operativos.
+
+👉 Acción:
+- redistribuir esfuerzos hacia canales más eficientes
+
+---
+
+### 4. Clientes ilocalizables presentan mayor riesgo
+La falta de contacto efectivo suele asociarse a mora avanzada.
+
+👉 Acción:
+- fortalecer calidad de datos y estrategias multicanal
+
+---
+
+# 📐 Métricas y Modelado
+
+## Métricas DAX desarrolladas
+- deuda_total
+- deuda_promedio
+- ratio_deuda_ingreso
+- porcentaje_acumulado
+- ranking_clientes
+- tasa_contacto_efectivo
+- promedio_mora
+
+---
+
+## Modelado
+- esquema relacional
+- tablas de hechos y dimensiones
+- segmentación dinámica
+- medidas acumulativas
+
+---
+
+# ⚙️ Arquitectura Técnica
+
+- ETL con Power Query
+- Limpieza y transformación de datos
+- Modelado relacional
+- DAX para KPIs y segmentación
+- Storytelling orientado a negocio
+
+---
+
+# 🛠️ Stack Tecnológico
+
+- Power BI
+- DAX
+- Power Query
+- SQL / Excel
+
+---
+
+# 🎯 Conclusión
+
+La eficiencia en cobranzas no depende únicamente de aumentar el volumen de contactos, sino de identificar correctamente dónde se concentra el riesgo y qué clientes requieren prioridad operativa.
+
+Este proyecto demuestra cómo el análisis de datos puede mejorar la toma de decisiones financieras mediante segmentación, priorización y visualización estratégica.
+
+---
