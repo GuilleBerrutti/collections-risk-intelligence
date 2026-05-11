@@ -3,36 +3,36 @@
 <p align="center">
   <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="85%">
   <br>
-  <em>Financial Risk Segmentation — Income vs Debt Exposure</em>
+  <em>Segmentación de Riesgo Financiero — Ingresos vs Exposición de Deuda</em>
 </p>
 
 ---
 
-# 📌 Executive Summary
+# 📌 Resumen Ejecutivo
 
-This project analyzes a collections portfolio using Power BI to identify critical customers, detect debt concentration, and optimize recovery strategies.
+Este proyecto analiza una cartera de cobranzas utilizando Power BI para identificar clientes críticos, detectar concentración de deuda y optimizar estrategias de recuperación.
 
-The dashboard transforms operational data into actionable financial insights focused on:
+El dashboard transforma datos operativos en insights financieros accionables enfocados en:
 
-- Prioritization of high-risk accounts.
-- Optimization of collection efforts.
-- Early detection of delinquency patterns.
-- Reduction of operational inefficiencies.
-- Improvement of cash flow recovery.
-
----
-
-# 🚀 Key Business Outcomes
-
-- 75% of total debt concentrated in only 15% of customers.
-- Identification of high-risk segments with low credit scores and advanced delinquency.
-- Detection of operational bottlenecks in payment recovery stages.
-- Strategic prioritization model focused on maximizing recovery efficiency.
-- Potential recovery acceleration through targeted collections strategies.
+- Priorización de cuentas de alto riesgo.
+- Optimización de esfuerzos de cobranza.
+- Detección temprana de patrones de mora.
+- Reducción de ineficiencias operativas.
+- Mejora del flujo de caja y recuperación de capital.
 
 ---
 
-# ⚙️ Analytics Architecture
+# 🚀 Resultados Clave del Negocio
+
+- El 75% de la deuda total se concentra en solamente el 15% de los clientes.
+- Identificación de segmentos críticos con bajo score crediticio y mora avanzada.
+- Detección de cuellos de botella operativos en el proceso de recuperación.
+- Modelo de priorización estratégica orientado a maximizar la eficiencia de cobranza.
+- Potencial aceleración de recuperación mediante estrategias segmentadas.
+
+---
+
+# ⚙️ Arquitectura Analítica
 
 ```text
-Excel / SQL → Power Query → Star Schema Model → DAX Measures → Power BI Dashboard
+Excel / SQL → Power Query → Modelo Star Schema → Medidas DAX → Dashboard Power BI
