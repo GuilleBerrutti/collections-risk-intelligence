@@ -7,14 +7,6 @@
 <img src="https://img.shields.io/badge/SQL-Data_Modeling-orange?style=for-the-badge">
 <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
 
-</p>
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="90%">
-  <br>
-  <em>Segmentación de Riesgo Financiero — Ingresos vs Exposición de Deuda</em>
-</p>
-
 ---
 
 # 📌 Resumen Ejecutivo
