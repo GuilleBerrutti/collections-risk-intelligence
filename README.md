@@ -112,7 +112,7 @@ Los clientes con alta deuda y bajo score presentan el mayor riesgo operativo, es
 
 ## 🚀 Recomendación Estratégica
 
-> Si el equipo de cobranzas logra contactar al 15% de los clientes ubicados en el cuadrante superior derecho (altos ingresos + alta deuda), podría recuperarse aproximadamente el 25% del capital total en mora en menos de 30 días.
+Si el equipo de cobranzas logra contactar al 15% de los clientes ubicados en el cuadrante superior derecho (altos ingresos + alta deuda), podría recuperarse aproximadamente el 25% del capital total en mora en menos de 30 días.
 
 ---
 
