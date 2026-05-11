@@ -26,24 +26,20 @@ El objetivo principal es transformar datos operativos en información accionable
 <details>
 <summary>⚖️ 2. Pareto — Concentración de Deuda</summary>
 
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
-</p>
-
 ### Objetivo
 Identificar qué clientes concentran la mayor parte de la deuda total (Regla 80/20).
 
 ### Insight
 Una pequeña fracción de la cartera concentra la mayor parte de la exposición financiera, permitiendo una asignación eficiente de recursos.
 
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
+</p>
+
 </details>
 
 <details>
 <summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="40%">
-</p>
 
 ### Objetivo
 Detectar segmentos críticos cruzando el nivel de mora con el score crediticio.
@@ -51,20 +47,24 @@ Detectar segmentos críticos cruzando el nivel de mora con el score crediticio.
 ### Insight
 Los clientes con score bajo presentan una transición más rápida hacia la mora avanzada, requiriendo acciones preventivas.
 
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="40%">
+</p>
+
 </details>
 
 <details>
 <summary>🌪️ 4. Funnel Operativo — Gestión de Cobranza</summary>
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="40%">
-</p>
 
 ### Objetivo
 Analizar la eficiencia del embudo de cobranza, desde el cliente en mora hasta la gestión efectiva.
 
 ### Insight
 Se detectan cuellos de botella entre la "Promesa de Pago" y la "Gestión Efectiva", sugiriendo la necesidad de mejores herramientas de negociación.
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="40%">
+</p>
 
 </details>
   
