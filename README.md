@@ -134,6 +134,10 @@ Los clientes con alta deuda y bajo score presentan el mayor riesgo operativo, es
 
 Aplicar la regla 80/20 para identificar clientes que concentran mayor exposición financiera.
 
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
+</p>
+
 ---
 
 ## 🧠 Lógica de Negocio
