@@ -44,7 +44,7 @@ Los clientes con alta deuda y score bajo presentan mayor riesgo operativo, espec
 <summary>⚖️ 2. Pareto — Concentración de Deuda</summary>
 
 <p align="center">
-  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/pareto_chart.png" width="60%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
 </p>
 
 ### Objetivo
