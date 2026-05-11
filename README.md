@@ -66,6 +66,8 @@ Analizar la eficiencia del embudo de cobranza, desde el cliente en mora hasta la
 ### Insight
 Se detectan cuellos de botella entre la "Promesa de Pago" y la "Gestión Efectiva", sugiriendo la necesidad de mejores herramientas de negociación.
 
+</details>
+  
 <details>
 <summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
 
