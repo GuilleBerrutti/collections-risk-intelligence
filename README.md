@@ -1,4 +1,4 @@
-# 💳 Smart Debt Strategy: Financial Risk & Collections Analytics
+# 💳 Collections Risk Intelligence
 
 <p align="center">
 
