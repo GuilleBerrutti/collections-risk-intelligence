@@ -36,24 +36,6 @@ El objetivo es transformar datos operativos en información financiera accionabl
 
 ---
 
-# ⚙️ Arquitectura Analítica
-
-```text
-Excel / SQL
-      ↓
-Power Query (ETL)
-      ↓
-Modelo Star Schema
-      ↓
-Medidas DAX
-      ↓
-Dashboard Power BI
-      ↓
-Insights Estratégicos
-```
-
----
-
 # 📊 Dashboard Analítico
 
 ---
