@@ -108,7 +108,7 @@ Si el equipo de cobranzas logra contactar al 15% de los clientes ubicados en el 
 Aplicar la regla 80/20 para identificar clientes que concentran mayor exposición financiera.
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="75%">
 </p>
 
 ---
