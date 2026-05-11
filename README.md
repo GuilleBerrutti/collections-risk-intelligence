@@ -40,7 +40,7 @@ El objetivo es transformar datos operativos en información financiera accionabl
 
 ---
 
-<details open>
+<details>
 
 <summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
 
