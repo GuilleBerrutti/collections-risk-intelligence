@@ -74,7 +74,7 @@ Los clientes con score bajo presentan una transición más rápida hacia la mora
 <summary>🌪️ 4. Funnel Operativo — Gestión de Cobranza</summary>
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="60%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="40%">
 </p>
 
 ### Objetivo
