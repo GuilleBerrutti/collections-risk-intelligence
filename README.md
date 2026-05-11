@@ -1,7 +1,7 @@
 # Smart Debt Strategy: Financial Risk & Collections Analytics 💳
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="70%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="80%">
   <br>
   <em>Gráfico de Dispersión: Relación entre Ingresos, Deuda y Score Crediticio</em>
 </p>
