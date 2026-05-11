@@ -59,7 +59,7 @@ Una pequeña fracción de la cartera concentra la mayor parte de la exposición 
 <summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="60%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="40%">
 </p>
 
 ### Objetivo
