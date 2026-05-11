@@ -1,7 +1,7 @@
 # Smart Debt Strategy: Financial Risk & Collections Analytics 💳
 
 <p align="center">
-  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/scatter_plot.png" width="70%" alt="Scatter Plot Risk Analysis">
+  <img src="https://github.com/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png>
   <br>
   <em>Gráfico de Dispersión: Relación entre Ingresos, Deuda y Score Crediticio</em>
 </p>
