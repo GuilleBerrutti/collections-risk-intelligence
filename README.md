@@ -1,4 +1,3 @@
-````md
 # 💳 Smart Debt Strategy: Financial Risk & Collections Analytics
 
 <p align="center">
