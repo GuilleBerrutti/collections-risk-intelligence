@@ -143,13 +143,13 @@ El análisis de Pareto reveló que aproximadamente el 15% de los clientes concen
 
 ## 🚀 Recomendación Estratégica
 
-> Priorizar estrategias personalizadas sobre el top 20% de clientes permitiría proteger aproximadamente el 80% de la exposición financiera total.
+Priorizar estrategias personalizadas sobre el top 20% de clientes permitiría proteger aproximadamente el 80% de la exposición financiera total.
 
 ---
 
 ## 📈 Impacto Operativo
 
-> La reasignación de gestores senior hacia cuentas críticas podría mejorar la eficiencia operativa hasta en un 40%.
+La reasignación de gestores senior hacia cuentas críticas podría mejorar la eficiencia operativa hasta en un 40%.
 
 ---
 
@@ -205,7 +205,7 @@ Los clientes con score bajo evolucionan más rápidamente hacia estados crítico
 
 ## 🚀 Recomendación Estratégica
 
-> Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría reducir aproximadamente un 12% la migración hacia mora crítica.
+Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría reducir aproximadamente un 12% la migración hacia mora crítica.
 
 ---
 
@@ -325,20 +325,6 @@ recovery_rate
 
 ---
 
-# 📷 Capturas del Dashboard
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="45%">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="45%">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="45%">
-</p>
-
----
-
 # 📍 Enfoque del Proyecto
 
 Este proyecto simula un entorno real de analítica financiera aplicado a cobranzas:
@@ -349,26 +335,3 @@ Este proyecto simula un entorno real de analítica financiera aplicado a cobranz
 - Recuperación de cartera.
 - Segmentación estratégica.
 - Priorización de cuentas.
-
----
-
-# 👨‍💻 Autor
-
-## Guillermo Berrutti
-
-**Data Analyst | Power BI | SQL | DAX | Business Intelligence**
-
-Especializado en:
-- Analítica financiera.
-- Visualización estratégica.
-- Optimización de procesos.
-- Storytelling con datos.
-- Business Intelligence.
-
----
-
-# ⭐ Objetivo del Proyecto
-
-Este proyecto fue desarrollado como simulación de un entorno real de analítica financiera y collections analytics, aplicando técnicas de Business Intelligence para la toma de decisiones estratégicas.
-````
-
