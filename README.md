@@ -217,7 +217,7 @@ Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría redu
 ---
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="75%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
 </p>
 
 </details>
@@ -266,7 +266,7 @@ Existe pérdida significativa de conversión posterior al compromiso de pago.
 ---
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="75%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="40%">
 </p>
 
 </details>
