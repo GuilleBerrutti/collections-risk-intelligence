@@ -56,17 +56,6 @@ Analizar la relación entre:
 
 ---
 
-## 🧠 Lógica de Negocio
-
-| Variable | Interpretación |
-|---|---|
-| Eje X | Capacidad financiera |
-| Eje Y | Exposición financiera |
-| Tamaño de burbuja | Días de mora |
-| Color | Nivel de score crediticio |
-
----
-
 ## 📌 Interpretación Estratégica
 
 Este gráfico permite identificar clientes con:
@@ -89,6 +78,16 @@ Los clientes con alta deuda y bajo score presentan el mayor riesgo operativo, es
 Si el equipo de cobranzas logra contactar al 15% de los clientes ubicados en el cuadrante superior derecho (altos ingresos + alta deuda), podría recuperarse aproximadamente el 25% del capital total en mora en menos de 30 días.
 
 ---
+
+## 🧠 Lógica de Negocio
+
+| Variable | Interpretación |
+|---|---|
+| Eje X | Capacidad financiera |
+| Eje Y | Exposición financiera |
+| Tamaño de burbuja | Días de mora |
+| Color | Nivel de score crediticio |
+
 
 <p align="center">
   <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="75%">
