@@ -1,111 +1,38 @@
-# Smart Debt Strategy: Financial Risk & Collections Analytics 💳
+# 💳 Smart Debt Strategy: Financial Risk & Collections Analytics
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="80%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="85%">
   <br>
-  <em>Gráfico de Dispersión: Relación entre Ingresos, Deuda y Score Crediticio</em>
+  <em>Financial Risk Segmentation — Income vs Debt Exposure</em>
 </p>
 
 ---
 
-## 📌 Resumen Ejecutivo
+# 📌 Executive Summary
 
-Este proyecto analiza una cartera de cobranzas utilizando Power BI para identificar clientes críticos, detectar concentración de deuda y optimizar estrategias de recuperación.
+This project analyzes a collections portfolio using Power BI to identify critical customers, detect debt concentration, and optimize recovery strategies.
 
-El objetivo principal es transformar datos operativos en información accionable para mejorar:
-- **Priorización de cuentas** según impacto financiero.
-- **Eficiencia operativa** en el proceso de contacto.
-- **Recuperación de capital** y gestión del riesgo.
+The dashboard transforms operational data into actionable financial insights focused on:
 
----
-
-# 📊 Dashboard Analítico
-
-</details>
-
-<details>
-<summary>⚖️ 2. Pareto — Concentración de Deuda</summary>
-
-### Objetivo
-Identificar qué clientes concentran la mayor parte de la deuda total (Regla 80/20).
-
-### Insight
-Una pequeña fracción de la cartera concentra la mayor parte de la exposición financiera, permitiendo una asignación eficiente de recursos.
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
-</p>
-
-</details>
-
-<details>
-<summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
-
-### Objetivo
-Detectar segmentos críticos cruzando el nivel de mora con el score crediticio.
-
-### Insight
-Los clientes con score bajo presentan una transición más rápida hacia la mora avanzada, requiriendo acciones preventivas.
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/capacidad_pago_vs_deuda.png" width="40%">
-</p>
-
-</details>
-
-<details>
-<summary>🌪️ 4. Funnel Operativo — Gestión de Cobranza</summary>
-
-### Objetivo
-Analizar la eficiencia del embudo de cobranza, desde el cliente en mora hasta la gestión efectiva.
-
-### Insight
-Se detectan cuellos de botella entre la "Promesa de Pago" y la "Gestión Efectiva", sugiriendo la necesidad de mejores herramientas de negociación.
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/recuperacion.png" width="40%">
-</p>
-
-</details>
-  
-<details>
-<summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
-
-### Objetivo
-Analizar la relación entre ingresos mensuales, capital pendiente, días de mora y score crediticio.
-
-### Configuración
-- **Eje X:** ingresos_mensuales | **Eje Y:** capital_pendiente
-- **Tamaño:** dias_mora | **Color:** nivel_score
-
-### Insight
-Los clientes con alta deuda y score bajo presentan mayor riesgo operativo, especialmente en segmentos de ingresos medios y bajos.
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
-</p>
-
-</details>
+- Prioritization of high-risk accounts.
+- Optimization of collection efforts.
+- Early detection of delinquency patterns.
+- Reduction of operational inefficiencies.
+- Improvement of cash flow recovery.
 
 ---
 
-# 💡 Insights Accionables
+# 🚀 Key Business Outcomes
 
-1. **Alta concentración de deuda:** Priorizar gestión intensiva sobre el top 20% de clientes con mayor deuda acumulada.
-2. **Segmentación por Score:** Aplicar estrategias de contacto temprano a clientes con score bajo, ya que muestran mayor probabilidad de impago.
-3. **Optimización de Canales:** Redistribuir el esfuerzo operativo hacia los canales que muestran mayor tasa de conversión en acuerdos de pago.
-
----
-
-# 📐 Métricas y Modelado (DAX)
-
-- **Key Measures:** `deuda_total`, `ratio_deuda_ingreso`, `porcentaje_acumulado`.
-- **Modelado:** Esquema relacional (Star Schema) con segmentación dinámica y medidas acumulativas.
+- 75% of total debt concentrated in only 15% of customers.
+- Identification of high-risk segments with low credit scores and advanced delinquency.
+- Detection of operational bottlenecks in payment recovery stages.
+- Strategic prioritization model focused on maximizing recovery efficiency.
+- Potential recovery acceleration through targeted collections strategies.
 
 ---
 
-# 🛠️ Stack Tecnológico
+# ⚙️ Analytics Architecture
 
-- **Power BI** (Visualización y Storytelling)
-- **DAX / Power Query** (Modelado y ETL)
-- **SQL / Excel** (Fuentes de datos)
+```text
+Excel / SQL → Power Query → Star Schema Model → DAX Measures → Power BI Dashboard
