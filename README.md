@@ -21,23 +21,6 @@ El objetivo principal es transformar datos operativos en información accionable
 
 # 📊 Dashboard Analítico
 
-<details>
-<summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
-
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
-</p>
-
-### Objetivo
-Analizar la relación entre ingresos mensuales, capital pendiente, días de mora y score crediticio.
-
-### Configuración
-- **Eje X:** ingresos_mensuales | **Eje Y:** capital_pendiente
-- **Tamaño:** dias_mora | **Color:** nivel_score
-
-### Insight
-Los clientes con alta deuda y score bajo presentan mayor riesgo operativo, especialmente en segmentos de ingresos medios y bajos.
-
 </details>
 
 <details>
@@ -85,6 +68,22 @@ Se detectan cuellos de botella entre la "Promesa de Pago" y la "Gestión Efectiv
 
 </details>
 
+<details>
+<summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
+
+<p align="center">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
+</p>
+
+### Objetivo
+Analizar la relación entre ingresos mensuales, capital pendiente, días de mora y score crediticio.
+
+### Configuración
+- **Eje X:** ingresos_mensuales | **Eje Y:** capital_pendiente
+- **Tamaño:** dias_mora | **Color:** nivel_score
+
+### Insight
+Los clientes con alta deuda y score bajo presentan mayor riesgo operativo, especialmente en segmentos de ingresos medios y bajos.
 ---
 
 # 💡 Insights Accionables
