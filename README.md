@@ -182,16 +182,6 @@ Detectar segmentos críticos cruzando:
 
 ---
 
-## 🧠 Lógica de Negocio
-
-| Variable | Interpretación |
-|---|---|
-| Columnas | Rangos de mora |
-| Filas | Segmentos de score |
-| Intensidad | Exposición financiera |
-
----
-
 ## 📌 Interpretación Estratégica
 
 ### 🔴 Zona Crítica
@@ -213,6 +203,16 @@ Los clientes con score bajo evolucionan más rápidamente hacia estados crítico
 ## 🚀 Recomendación Estratégica
 
 Incrementar refinanciaciones tempranas en segmentos de riesgo medio podría reducir aproximadamente un 12% la migración hacia mora crítica.
+
+---
+
+## 🧠 Lógica de Negocio
+
+| Variable | Interpretación |
+|---|---|
+| Columnas | Rangos de mora |
+| Filas | Segmentos de score |
+| Intensidad | Exposición financiera |
 
 ---
 
@@ -261,7 +261,7 @@ Existe pérdida significativa de conversión posterior al compromiso de pago.
 
 ## 🚀 Recomendación Estratégica
 
-> Incrementar la tasa de contacto efectivo mediante automatización podría aumentar la recuperación final aproximadamente un 8%.
+Incrementar la tasa de contacto efectivo mediante automatización podría aumentar la recuperación final aproximadamente un 8%.
 
 ---
 
