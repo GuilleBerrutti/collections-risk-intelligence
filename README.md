@@ -286,13 +286,12 @@ Incrementar la tasa de contacto efectivo mediante automatización podría aument
 
 ## 📐 Medidas DAX Utilizadas
 
-```DAX
+DAX
 deuda_total
 ratio_deuda_ingreso
 porcentaje_acumulado
 clientes_en_mora
 recovery_rate
-```
 
 ---
 
