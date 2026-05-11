@@ -25,7 +25,7 @@ El objetivo principal es transformar datos operativos en información accionable
 <summary>📈 1. Scatter Plot — Riesgo Financiero</summary>
 
 <p align="center">
-  <img src="https://github.com/TU-USUARIO/TU-REPO/blob/main/screenshots/scatter_plot.png" width="60%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/tramos_mora.png" width="40%">
 </p>
 
 ### Objetivo
