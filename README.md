@@ -150,10 +150,18 @@ Priorizar estrategias personalizadas sobre el top 20% de clientes permitiría pr
 
 La reasignación de gestores senior hacia cuentas críticas podría mejorar la eficiencia operativa hasta en un 40%.
 
+## 🧠 Lógica de Negocio
+
+| Elemento | Descripción |
+|---|---|
+| Eje X | Clientes ordenados por deuda |
+| Barras | Capital pendiente individual |
+| Línea | % acumulado de deuda |
+
 ---
 
 <p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="75%">
+  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
 </p>
 
 </details>
