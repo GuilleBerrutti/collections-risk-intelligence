@@ -158,7 +158,7 @@ La reasignación de gestores senior hacia cuentas críticas podría mejorar la e
 | Barras | Capital pendiente individual |
 | Línea | % acumulado de deuda |
 
-<details/>
+</details>
 
   ---
 
