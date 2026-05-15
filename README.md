@@ -267,16 +267,19 @@ Incrementar la tasa de contacto efectivo mediante automatización podría aument
 
 ---
 
-# 🧠 Modelado de Datos y DAX
+# 🎯 Recomendaciones Estratégicas
 
-## 📦 Modelo Analítico
-
-- Star Schema.
-- Tablas dinámicas de segmentación.
-- Optimización relacional.
-- Modelado orientado a performance.
+- Priorizar cuentas de alta exposición financiera.
+- Automatizar comunicaciones tempranas.
+- Aplicar segmentación por score crediticio.
+- Optimizar asignación operativa.
+- Mejorar seguimiento posterior a promesas de pago.
+- Implementar monitoreo preventivo.
 
 ---
+
+# 🧠 Modelado de Datos y DAX
+
 
 ## 📐 Medidas DAX Utilizadas
 
@@ -298,17 +301,6 @@ DAX
 - Migración de mora.
 - Segmentación dinámica.
 - Priorización financiera.
-
----
-
-# 🎯 Recomendaciones Estratégicas
-
-- Priorizar cuentas de alta exposición financiera.
-- Automatizar comunicaciones tempranas.
-- Aplicar segmentación por score crediticio.
-- Optimizar asignación operativa.
-- Mejorar seguimiento posterior a promesas de pago.
-- Implementar monitoreo preventivo.
 
 ---
 
