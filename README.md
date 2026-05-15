@@ -160,14 +160,6 @@ La reasignación de gestores senior hacia cuentas críticas podría mejorar la e
 
 ---
 
-<p align="center">
-  <img src="https://github.com/GuilleBerrutti/Gestion_de_cobranzas/blob/main/collections-strategy-analytics/screenshots/concentraci%C3%B3n%20.png" width="40%">
-</p>
-
-</details>
-
----
-
 <details>
 
 <summary>🔥 3. Heatmap — Mora vs Score Crediticio</summary>
